@@ -1,0 +1,49 @@
+/* Adjust navbar item styles */
+.navbar-nav .nav-link {
+  color: #8064a2;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #8064a2;
+}
+
+.navbar-nav .nav-item .nav-link .icon {
+  margin-right: 5px;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item .icon {
+  margin-right: 10px;
+}
+
+/* Adjust dropdown arrow position */
+.navbar-nav .dropdown-toggle::after {
+  margin-left: 5.8rem;
+}
+
+/* Adjust spacing between navbar items */
+.navbar-nav .nav-item {
+  margin-left: 20px;
+}
+
+/* Sign In button styles */
+.navbar-nav .btn {
+  color: #8064a2 !importaant;
+  border-color: #8064a2 !important;
+}
+
+.navbar-nav .btn:hover {
+  color: #ffffff !important;
+  background-color: #8064a2 !important;
+}
+
+/* Hide non-essential elements in mobile view */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    display: none;
+  }
+}

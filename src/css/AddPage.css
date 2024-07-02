@@ -1,0 +1,48 @@
+.add-page-container {
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7fdff;
+}
+
+.add-circle-icon {
+  color: #0096c8;
+  margin-right: 10px;
+}
+
+.btn-custom {
+  background-color: white;
+  color: #8064a2;
+  border-color: #8064a2;
+}
+
+.btn-custom:hover {
+  color: white;
+  background-color: #8064a2;
+  border-color: #8064a2;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .btn-custom {
+    width: 100%;
+  }
+}

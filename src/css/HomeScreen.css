@@ -1,0 +1,68 @@
+.active-tab {
+  color: #8064a2;
+  border: none;
+  border-bottom: 2px solid #8064a2;
+}
+
+.isSignIn:hover span {
+  color: #8064a2;
+}
+
+.custom-button,
+.custom-input {
+  max-width: 100%;
+  width: 550px;
+  height: 45px;
+  border: 1px solid #8064a2;
+}
+
+.leftContainer {
+  padding-left: 30px;
+}
+.rightContainer {
+  padding: 50px;
+}
+
+.inactive-tab {
+  color: lightgrey;
+  border: none;
+}
+
+.continue-button {
+  width: 90%;
+  justify-content: center;
+}
+
+.continue-button .google-icon,
+.continue-button .facebook-icon {
+  margin-right: auto;
+}
+.google-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.highlight-blue {
+  color: #0096c8; /* Blue color */
+}
+.highlight-purple {
+  color: #8064a2; /* Purple color */
+}
+
+.continue-button-active {
+  width: 90%;
+  border: 1px solid #8064a2;
+  color: #8064a2;
+  background-color: 8064A2;
+}
+
+.agree-button-active {
+  width: 90%;
+  background-color: #8064a2;
+  color: white;
+  border: none;
+}
+
+.light-grey-icon {
+  color: lightgrey;
+}

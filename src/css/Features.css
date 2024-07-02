@@ -1,0 +1,64 @@
+/* Ensure full height coverage */
+.features-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adjust card width */
+.card-custom {
+  width: 90%; /* Adjust percentage as needed */
+  margin: 0 auto; /* Center the card */
+}
+
+/* Button styling */
+.btn-custom {
+  background-color: white;
+  color: #8064a2;
+  border-color: #8064a2;
+}
+
+.btn-custom:hover {
+  background-color: #8064a2;
+  color: white;
+  border-color: #8064a2;
+}
+
+/* Icon hover styling */
+.card-body:hover .MuiSvgIcon-root {
+  color: white !important;
+}
+
+/* Specific card hover effects */
+.people:hover {
+  background-color: #8064a2;
+  color: white;
+}
+.place:hover {
+  background-color: #77933c;
+  color: white;
+}
+.product:hover {
+  background-color: #c0504d;
+  color: white;
+}
+.program:hover {
+  background-color: #0096c8;
+  color: white;
+}
+
+/* Adjustments for mobile */
+@media (max-width: 767px) {
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .btn-custom {
+    width: 100%;
+  }
+}
